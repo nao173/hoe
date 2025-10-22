@@ -1,0 +1,125 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.product-detail-container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.back-link {
+    color: #4a4a4a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+h2 {
+    margin: 10px 0 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* メインレイアウト */
+.detail-content {
+    display: flex;
+    gap: 40px;
+}
+
+/* 左：画像 */
+.image-section {
+    width: 40%;
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* 右：情報フォーム */
+.info-section {
+    width: 60%;
+}
+
+.info-section label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.info-section input[type="text"],
+.info-section input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.season-checkbox label {
+    margin-right: 15px;
+}
+
+/* 商品説明 */
+.description-section {
+    margin-top: 30px;
+}
+
+.description-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* ボタン */
+.button-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn.back {
+    background-color: #ddd;
+    color: #333;
+}
+
+.btn.save {
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+}
+
+.btn.save:hover {
+    background-color: #f0c800;
+}
+
+.btn.delete {
+    background-color: #ff4444;
+    color: #fff;
+    border: none;
+}
+
+.error-messages {
+    background-color: #ffe6e6;
+    border: 1px solid #ff9999;
+    color: #cc0000;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.error-messages ul {
+    margin: 0;
+    padding-left: 20px;
+}
